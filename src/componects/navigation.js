@@ -45,7 +45,7 @@ function Navigate() {
             <div id="unique-links-container" className="p-2 ms-auto">
               <Nav className="justify-content-end" activeKey="/home">
                 <Nav.Item>
-                  <Nav.Link id="unique-home-link" href="/#/">
+                  <Nav.Link id="unique-home-link" href="/#">
                     Home
                   </Nav.Link>
                 </Nav.Item>
