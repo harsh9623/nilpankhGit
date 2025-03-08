@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/nilpankhGit/static/css/main.d4cdd80f.css",
+    "main.css": "/nilpankhGit/static/css/main.ecb262a6.css",
     "main.js": "/nilpankhGit/static/js/main.adbf9f25.js",
     "static/js/453.8ab44547.chunk.js": "/nilpankhGit/static/js/453.8ab44547.chunk.js",
     "static/media/logomy.png": "/nilpankhGit/static/media/logomy.5df4980b1b241ec397b3.png",
     "index.html": "/nilpankhGit/index.html",
-    "main.d4cdd80f.css.map": "/nilpankhGit/static/css/main.d4cdd80f.css.map",
+    "main.ecb262a6.css.map": "/nilpankhGit/static/css/main.ecb262a6.css.map",
     "main.adbf9f25.js.map": "/nilpankhGit/static/js/main.adbf9f25.js.map",
     "453.8ab44547.chunk.js.map": "/nilpankhGit/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4cdd80f.css",
+    "static/css/main.ecb262a6.css",
     "static/js/main.adbf9f25.js"
   ]
 }
