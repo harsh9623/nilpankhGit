@@ -1,5 +1,6 @@
 import React from 'react';
 import {BrowserRouter, Routes, Route } from 'react-router-dom'
+import {HashRouter} from 'react-router-dom'
 // import Nav from './components/navigation';
 import Footer from './footer';
 import Home from './home';
@@ -12,7 +13,7 @@ import Contact from './contact';
 
 function Routerpg() {
   return (<>
-    <BrowserRouter>
+    <HashRouter>
       <Navigate/>
       <Routes>
           <Route path="/home" element={<Home />}/>
@@ -23,7 +24,7 @@ function Routerpg() {
      
     </Routes>
     <Footer/>
-    </BrowserRouter>
+    </HashRouter>
   </>
   );
 }
