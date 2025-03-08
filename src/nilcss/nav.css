@@ -133,7 +133,7 @@
   }
 
   #unique-links-container {
-    display: none;
+    display: block;
   }
 
   #unique-menu-toggle {
