@@ -1,0 +1,188 @@
+#container {
+    width: 100%;
+    height :auto;
+    background-color:#000181;
+    color: white;
+    float: left;
+}
+#container  img{
+  width: 70px;
+  height: 50px;
+ margin-top: 20px;
+  float: left;
+}
+
+.nav-link {
+    color: white !important; /* Use !important to override Bootstrap defaults */
+}
+.nav-link:hover{
+    text-decoration: 2px solid white;
+    color: white;
+}
+.custom-button {
+    background-color: yellow;
+    color: black; /* Change text color if needed */
+  }
+
+  .foottwo{
+    background-color: black;
+color: white;
+width: 100%;
+float: left;
+
+
+  }
+  .custom-col {
+    width: 40%;
+  }
+  a{
+    margin-left: 10px;
+  }
+  #pemail a{
+    color:white ;
+  }
+  
+
+  #icons a{
+    color: white;
+    float: left;
+    align-items: center;
+    margin-left: 12px;
+    width: 40px;
+    border-radius: 5px;
+    height: 35px;
+    background-color: rgb(0, 191, 255);
+    padding: 3px;
+    margin-bottom: 10px;
+  }
+  #belowicons{
+   
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+  }
+  #belowicons a{
+    margin-right: 20px;
+    width: 50px;
+    height: 30px;
+  }
+  th{
+    font-size: 17px;
+    align-items: center;
+  }
+  #coltwo{
+    line-height: 38px;
+  }
+  #coltwo a{
+    color: white;
+    text-decoration: none;
+  }
+
+  /* column three */
+  #colthree{
+    line-height: 38px;
+  }
+  #colthree a{
+    color: white;
+    text-decoration: none;
+  }
+
+  /* navigationpage */
+#mail{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+#navone a {
+  color: rgb(0, 0, 0) ;
+}
+#navone{
+  color: rgb(0, 0, 0);
+}
+
+#mail {
+  color: black;
+}
+#pemailnav{
+  color :black;
+}
+
+
+
+/* gpt //////////////////////////////////////////////////////////*/
+@media (max-width: 768px) {
+  #container {
+    padding: 10px 0;
+  }
+
+  .foottwo {
+    padding: 5px 0;
+  }
+
+  #belowicons a {
+    margin: 0 5px;
+  }
+
+  #icons a {
+    margin: 0 5px;
+  }
+
+  /* Stack the columns vertically */
+  .col {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .text-end {
+    text-align: center !important;
+  }
+
+  .align-items-center {
+    text-align: center;
+  }
+}
+/* gpt2/////////////////////////////////////////// */
+@media (max-width: 480px) {
+  #container {
+    padding: 5px 0;
+  }
+
+  .foottwo {
+    padding: 2px 0;
+  }
+
+  #belowicons a {
+    margin: 0 2px;
+  }
+
+  #icons a {
+    margin: 0 2px;
+  }
+
+  /* Stack the columns vertically */
+  .col {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .text-end {
+    text-align: center !important;
+  }
+
+  .align-items-center {
+    text-align: center;
+  }
+
+  .p-2 {
+    padding: 5px;
+  }
+
+  #coltwo th, #colthree th, .th {
+    font-size: 14px;
+  }
+
+  #pemail {
+    font-size: 14px;
+  }
+}
