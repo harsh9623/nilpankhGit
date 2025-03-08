@@ -36,7 +36,7 @@ function Navigate() {
           <Stack direction="horizontal" gap={3}>
             <div id="unique-logo" className="p-2">
               <Nav.Item>
-                <Nav.Link href="/home">
+                <Nav.Link href="/">
                   <img id="unique-logo-img" src={logo} alt="Home" />
                 </Nav.Link>
               </Nav.Item>
@@ -45,22 +45,22 @@ function Navigate() {
             <div id="unique-links-container" className="p-2 ms-auto">
               <Nav className="justify-content-end" activeKey="/home">
                 <Nav.Item>
-                  <Nav.Link id="unique-home-link" href="/home">
+                  <Nav.Link id="unique-home-link" href="/">
                     Home
                   </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link id="unique-products-link" href="/products">
+                  <Nav.Link id="unique-products-link" href="#/products">
                     Products
                   </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link id="unique-aboutus-link" href="/aboutus">
+                  <Nav.Link id="unique-aboutus-link" href="#/aboutus">
                     About us
                   </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link id="unique-contactus-link" href="/contactus">
+                  <Nav.Link id="unique-contactus-link" href="#/contactus">
                     Contact us
                   </Nav.Link>
                 </Nav.Item>
