@@ -4,13 +4,12 @@ import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import "../nilcss/nav.css";
 import logo from "./logomy.png";
 import Nav from "react-bootstrap/Nav";
-import NavLink from "react-bootstrap/esm/NavLink";
 
 function Navigate() {
   return (
     <>
       <div id="unique-navone">
-        <Stack direction="horizontal" gap={3} style={{ marginTop: "15px" }}>
+        <Stack direction="horizontal" gap={3} style={{ marginTop: '15px' }} >
           <div id="unique-free-shopping" className="p-2">
             Free Shipping for all orders of ₹ 8,303
           </div>
@@ -45,8 +44,8 @@ function Navigate() {
 
             <div id="unique-links-container" className="p-2 ms-auto">
               <Nav className="justify-content-end" activeKey="/home">
-              <Nav.Item>
-                  <Nav.Link id="unique-products-link" href="#/">
+                <Nav.Item>
+                  <Nav.Link id="unique-home-link" href="#/">
                     Home
                   </Nav.Link>
                 </Nav.Item>
